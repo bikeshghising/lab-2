@@ -28,6 +28,9 @@ window.onload = function() {
     redInput.oninput = changeColor;
     greenInput.oninput = changeColor;
     blueInput.oninput = changeColor;
+   
+    // Calling changeColor to set the initial color
+    changeColor();
 };
 
 
