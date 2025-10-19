@@ -23,8 +23,11 @@ window.onload = function() {
         
         // Log the color value to the console for debugging
         console.log('Color changed to:', color);
-        
-}
-
-
+    }
+    // changeColor function to the input event of each color slider
+    redInput.oninput = changeColor;
+    greenInput.oninput = changeColor;
+    blueInput.oninput = changeColor;
 };
+
+
