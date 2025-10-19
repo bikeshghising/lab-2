@@ -14,8 +14,17 @@ window.onload = function() {
         const r = redInput.value;
         const g = greenInput.value;
         const b = blueInput.value;
+
+        // RGB color string using the input values
+        const color = 'rgb(' + r + ',' + g + ',' + b + ')';
         
-};
+        // Apply the generated color to the background of the body
+        bodyElement.style.backgroundColor = color;
+        
+        // Log the color value to the console for debugging
+        console.log('Color changed to:', color);
+        
+}
 
 
 };
