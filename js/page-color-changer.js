@@ -7,8 +7,15 @@ window.onload = function() {
     const blueInput = document.querySelector('#blue');
     // Select the body element of the page
     const bodyElement = document.body;
+    
+    // Function to change the background color based on RGB input values
+    function changeColor() {
+        // Get the current values from the input fields
+        const r = redInput.value;
+        const g = greenInput.value;
+        const b = blueInput.value;
+        
+};
 
 
-
-
-}
+};
